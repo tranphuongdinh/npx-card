@@ -1,6 +1,6 @@
 {
     "name": "tpd-card",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This is Tran Phuong Dinh's npx card demo",
     "main": "index.js",
     "scripts": {
