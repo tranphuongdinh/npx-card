@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+"use strict";
+
 import boxen from "boxen";
 import chalk from "chalk";
 import clear from "clear";
@@ -61,7 +65,7 @@ const me = boxen(
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.bold(
-            "Hi there! I'm Dinh, and I love Vo Ngoc Tin!\n远走的风沙去谁的天涯\n春天可曾在哪里见过他"
+            "Hi there! I'm Tran Phuong Dinh, and I love Vo Ngoc Tin!\n远走的风沙去谁的天涯,\n春天可曾在哪里见过他."
         )}`,
     ].join("\n"),
     {
@@ -76,5 +80,13 @@ const me = boxen(
 
 // Show the boxen
 console.log(me);
+
+const tip = [
+    `Tip: ${chalk.cyanBright.bold(
+        "cmd/ctrl + click"
+    )} on the links above to open them in your broswer.`,
+    "",
+].join("\n");
+console.log(tip);
 
 prompt(questions).then((answer) => answer.action());
