@@ -1,0 +1,23 @@
+{
+    "name": "tpd-card",
+    "version": "1.0.0",
+    "description": "This is Tran Phuong Dinh's npx card demo",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "npx",
+        "tranphuongdinh"
+    ],
+    "type": "module",
+    "author": "Tran Phuong Dinh",
+    "license": "ISC",
+    "dependencies": {
+        "boxen": "^7.0.0",
+        "chalk": "^5.0.1",
+        "clear": "^0.1.0",
+        "inquirer": "^9.0.0",
+        "open": "^8.4.0"
+    }
+}
