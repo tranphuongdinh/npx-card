@@ -1,13 +1,13 @@
 {
-    "name": "tpd-card",
-    "version": "1.0.1",
+    "name": "tpd-npx-card",
+    "version": "1.0.0",
     "description": "This is Tran Phuong Dinh's npx card demo",
     "main": "index.js",
     "bin": "./index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "pub": "npm version patch & npm publish",
-        "start": "node card.js"
+        "start": "node index.js"
     },
     "keywords": [
         "npx",
